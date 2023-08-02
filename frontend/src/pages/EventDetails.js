@@ -6,7 +6,7 @@ export default function EventDetails() {
   return (
     <>
     <h1>Event Details</h1>
-    <p>{params.id}</p>
+    <p>Event ID: {params.id}</p>
     <p><Link to = '..' relative='path'>Back</Link></p>
 
     </>
