@@ -8,7 +8,7 @@ function MainNavigation() {
         <ul className={classes.list}>
           <li>
             <NavLink
-              to="/events"
+              to="/"
               className={({ isActive }) =>
                 isActive ? classes.active : undefined
               }
@@ -18,7 +18,7 @@ function MainNavigation() {
           </li>
           <li>
             <NavLink
-              to="/events/new"
+              to="/events"
               className={({ isActive }) =>
                 isActive ? classes.active : undefined
               }>
